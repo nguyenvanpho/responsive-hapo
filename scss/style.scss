@@ -117,10 +117,10 @@ $color_04:#444444;
 body {
 	margin: 0px;
 	padding: 0px;
-	overflow-x: hidden;
+	// overflow-x: hidden;
 	width: 1920px;
-	font-size: 13px !important;
-	font-family: Roboto-Regular !important;
+	font-size: 13px;
+	font-family: Roboto-Regular;
 }
 
 header{
@@ -753,6 +753,13 @@ footer{
 			}
 		}
 	}
+	footer{
+		.footer-column{
+			span{
+				font-size: 12px;
+			}
+		}
+	}
 
 }
 
@@ -1020,6 +1027,11 @@ footer{
 			float: right;
 			padding-bottom: 26.31px;
 		}
+		.footer-column{
+			span{
+				font-size: 11px;
+			}
+		}
 	}
 
 }
@@ -1115,12 +1127,36 @@ footer{
 	}
 	.i-learnt{
 		.today-i-learnt-title{
-			margin-left: 12% !important;
+			margin-left: 12%;
 		}
 	}
 	.daily-report{
 		.daily-report-title{
-			margin-left: 12% !important;
+			margin-left: 12%;
+		}
+	}
+	.select-number {
+		.select-carousel {
+			.carousel{
+				margin-left: 0px;
+				.number img{
+					max-width: 88%;
+				}
+			}
+		}
+	}
+	.members{
+		.members-detail{
+			p{
+				width: 85.666667%;
+			}
+		}
+	}
+	.customers{
+		.customers-detail{
+			p{
+				width: 85.666667%;
+			}
 		}
 	}
 }
@@ -1187,17 +1223,7 @@ footer{
 		}
 	}
 }
-@media screen and (width: 320px){
-	.select-number {
-		.select-carousel {
-			.carousel{
-				margin-left: 0px;
-				.number img{
-					max-width: 88%;
-				}
-			}
-		}
-	}
+@media screen and (width: 320px) and (max-width: 374px){
 	.members{
 		.members-detail{
 			p{
