@@ -103,6 +103,7 @@ header .text-icons .better, header .text-icons .faster, header .text-icons .toge
 body {
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
   width: 1920px;
   font-size: 13px;
   font-family: Roboto-Regular; }
@@ -327,7 +328,7 @@ footer {
         font-weight: 500;
         text-decoration: none; }
     footer .footer-column .footer-link-bottom {
-      padding-top: 0px !important; }
+      padding-top: 0px; }
   footer .footer-link-network {
     padding-top: 108px; }
     footer .footer-link-network .ti-facebook, footer .footer-link-network .ti-twitter-alt, footer .footer-link-network .ti-youtube, footer .footer-link-network .ti-linkedin {
@@ -602,7 +603,9 @@ footer {
     header .text-icons .faster {
       padding-left: 22%; }
     header .text-icons .together {
-      padding-left: 18.46%; } }
+      padding-left: 18.46%; }
+  header .header-start {
+    padding-bottom: 150px; } }
 
 @media screen and (width: 320px) {
   header .about-us {

@@ -117,7 +117,7 @@ $color_04:#444444;
 body {
 	margin: 0px;
 	padding: 0px;
-	// overflow-x: hidden;
+	overflow-x: hidden;
 	width: 1920px;
 	font-size: 13px;
 	font-family: Roboto-Regular;
@@ -508,7 +508,7 @@ footer{
 			}
 		}
 		.footer-link-bottom{
-			padding-top: 0px !important;
+			padding-top: 0px;
 			@extend .footer-link-top;
 		}
 	}
@@ -547,26 +547,26 @@ footer{
  @media screen and (min-width:768px) and (max-width:991px){
  	body {
 	width: 100%;
-}
-.start-now{
-	padding: 13px 30px;
-	font-size: 14px;
-	line-height: 19px;
-}
-%start-center{
-	text-align: center;
-	margin-top: 0px;
-	padding-bottom: 50px;
-}
+	}
+	.start-now{
+		padding: 13px 30px;
+		font-size: 14px;
+		line-height: 19px;
+	}
+	%start-center{
+		text-align: center;
+		margin-top: 0px;
+		padding-bottom: 50px;
+	}
 
-%icon-general-ipad{
-	font-size: 24px;
-	letter-spacing: 2px;
-}
-%text-general-ipad {
-	font-size: 24px;
-	line-height: 32px;
-}
+	%icon-general-ipad{
+		font-size: 24px;
+		letter-spacing: 2px;
+	}
+	%text-general-ipad {
+		font-size: 24px;
+		line-height: 32px;
+	}
 	
 	header{
 	.about-us{
@@ -760,7 +760,6 @@ footer{
 			}
 		}
 	}
-
 }
 
  @media screen and (max-width:767px){
@@ -855,6 +854,7 @@ footer{
 			padding-bottom: 26.75px;
 		}
 	}
+
 	.i-learnt {
 		.i-learnt-img{
 		margin-top: 0px;
@@ -1068,6 +1068,9 @@ footer{
 				padding-left: 18.46%;
 			}
 		}
+		.header-start{
+			padding-bottom:150px;
+		}
 	}
 
 	.i-learnt {
@@ -1093,8 +1096,8 @@ footer{
 			@extend %start-ipad-pro;
 		}
 	}
-
 }
+
 @media screen and (width: 320px){
 	header{
 		.about-us{
@@ -1244,7 +1247,7 @@ footer{
 		.text-icons{ 
 			.together{
 				padding-left: 8%;
-				}
 			}
+		}
 	}
 }
